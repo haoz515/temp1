@@ -33,21 +33,7 @@ def crawl_data(url):
             width = cfg_data.get('width') if cfg_data else None
 
             data_list.append({
-                # 'id': item.get('id', ''),
-                #                 'ai_model': model_data,
-                #                 'ava_score': item.get('ava_score', ''),
-                #                 'cfg_scale': cfg_data.get('cfg_scale', ''),
-                #                 'height': cfg_data.get('height', ''),
-                #                 'negative_prompt': cfg_data.get('negative_prompt', ''),
-                #                 'sampler': cfg_data.get('sampler', ''),
-                #                 'seed': cfg_data.get('seed', ''),
-                #                 'steps': cfg_data.get('steps', ''),
-                #                 'width': cfg_data.get('width', ''),
-                #                 'image_height': item.get('image_height', ''),
-                #                 'image_seed': item.get('image_seed', ''),
-                #                 'image_url': image_data,
-                #                 'image_width': item.get('image_width', ''),
-                #                 'prompt': prompt_data,
+                
                 'id': item.get('id', ''),
                 'ai_model': model_data,
                 'ava_score': item.get('ava_score', ''),
